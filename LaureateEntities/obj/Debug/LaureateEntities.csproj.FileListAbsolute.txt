@@ -1,0 +1,5 @@
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureateEntities\bin\Debug\LaureateEntities.dll
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureateEntities\bin\Debug\LaureateEntities.pdb
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureateEntities\obj\Debug\LaureateEntities.csproj.CoreCompileInputs.cache
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureateEntities\obj\Debug\LaureateEntities.dll
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureateEntities\obj\Debug\LaureateEntities.pdb

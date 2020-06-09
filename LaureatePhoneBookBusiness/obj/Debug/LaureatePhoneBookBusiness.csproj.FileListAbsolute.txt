@@ -1,0 +1,14 @@
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\bin\Debug\LaureatePhoneBookBusiness.dll
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\bin\Debug\LaureatePhoneBookBusiness.pdb
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\bin\Debug\LaureateEntities.dll
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\bin\Debug\LaureatePhoneBookDAL.dll
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\bin\Debug\EntityFramework.dll
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\bin\Debug\LaureateEntities.pdb
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\bin\Debug\LaureatePhoneBookDAL.pdb
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\bin\Debug\LaureatePhoneBookDAL.dll.config
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\bin\Debug\EntityFramework.xml
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\obj\Debug\LaureatePhoneBookBusiness.csprojAssemblyReference.cache
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\obj\Debug\LaureatePhoneBookBusiness.csproj.CoreCompileInputs.cache
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\obj\Debug\LaureatePhoneBookBusiness.csproj.CopyComplete
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\obj\Debug\LaureatePhoneBookBusiness.dll
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookBusiness\obj\Debug\LaureatePhoneBookBusiness.pdb

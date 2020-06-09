@@ -1,0 +1,12 @@
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookDAL\bin\Debug\LaureatePhoneBookDAL.dll.config
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookDAL\bin\Debug\LaureatePhoneBookDAL.dll
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookDAL\bin\Debug\LaureatePhoneBookDAL.pdb
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookDAL\bin\Debug\EntityFramework.dll
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookDAL\bin\Debug\LaureateEntities.dll
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookDAL\bin\Debug\LaureateEntities.pdb
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookDAL\bin\Debug\EntityFramework.xml
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookDAL\obj\Debug\LaureatePhoneBookDAL.csprojAssemblyReference.cache
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookDAL\obj\Debug\LaureatePhoneBookDAL.csproj.CoreCompileInputs.cache
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookDAL\obj\Debug\LaureatePhoneBookDAL.csproj.CopyComplete
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookDAL\obj\Debug\LaureatePhoneBookDAL.dll
+C:\Users\Ryzen 5\source\repos\LaureatePhoneBookWebApplication\LaureatePhoneBookDAL\obj\Debug\LaureatePhoneBookDAL.pdb
