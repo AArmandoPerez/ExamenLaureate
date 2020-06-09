@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewBag.Title = "Update_data";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Actualizar Contactos</h2>
+<br />
+<div ng-app="Homeapp" ng-controller="HomeController" data-ng-init="loadrecord(@Convert.ToInt32(Request.QueryString["id"]))">
+
+    @*<form>
+        <div class="form-group">
+            <label for="nombreInput">Nombre</label>
+            <input type="text" class="form-control" ng-model="Contacts.Nombre" id="nombreInput" placeholder="Nombre del Contacto">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Correo Electronico</label>
+            <input type="email" class="form-control" ng-model="Contacts.Email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electronico">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Numero de Telefono</label>
+            <input type="tel" class="form-control" ng-model="Contacts.PhoneNumber" id="PhoneInput" placeholder="Numero de telefono">
+
+        </div>
+        <div class="form-group">
+            <label for="Location">Locación</label>
+            <input type="text" class="form-control" id="Location" ng-model="Contacts.Location" placeholder="Location">
+        </div>
+        <input type="button" class="btn btn-primary" ng-click="updatedata()" value="{{btntext}}" />
+    </form>*@
+
+    <form name="frmUpdate">
+        <div class="form-group">
+            <label for="nombreInput">Nombre</label>
+            <input type="text" class="form-control" name="name" ng-model="Contacts.Nombre" placeholder="Nombre del Contacto" required ng-maxlength="60">
+            <span ng-show="frmUpdate.name.$dirty && frmUpdate.name.$error.required">Requerido!</span>
+            <span ng-show="frmUpdate.name.$dirty && frmUpdate.name.$error.maxlength">Debe temer maximo 60 caracteres!</span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Correo Electronico</label>
+            <input type="email" class="form-control" ng-model="Contacts.Email" name="email" placeholder="Correo Electronico" required ng-maxlength="60">
+            <span ng-show="frmUpdate.email.$dirty && frmUpdate.email.$error.email">No es un email valido!</span>
+            <span ng-show="frmUpdate.email.$dirty && frmUpdate.email.$error.maxlength">Debe temer maximo 60 caracteres!</span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Numero de Telefono</label>
+            <input type="number" class="form-control" ng-model="Contacts.PhoneNumber" name="phonenumber" placeholder="Numero de telefono" required ng-maxlength="60">
+            <span ng-show=" frmUpdate.phonenumber.$dirty &&frmUpdate.phonenumber.$error.maxlength">Debe temer maximo 60 caracteres!</span>
+            <span ng-show=" frmUpdate.phonenumber.$dirty &&frmUpdate.phonenumber.$error.required">Requerido!</span>
+
+
+        </div>
+        <div class="form-group">
+            <label for="Location">Locación</label>
+            <input type="text" class="form-control" name="location" ng-model="Contacts.Location" placeholder="Location" required ng-maxlength="10">
+            <span ng-show="frmUpdate.location.$dirty &&frmUpdate.location.$error.maxlength">Debe temer maximo 10 caracteres!</span>
+            <span ng-show="frmUpdate.location.$dirty &&frmUpdate.location.$error.required">Requerido!</span>
+        </div>
+
+        <input ng-disabled="frmUpdate.$invalid" type="button" class="btn btn-primary" ng-click="updatedata()" value="{{btntext}}" />
+    </form>
+
+
+
+
+</div>
+
+<script src="~/Scripts/angular.min.js"></script>
+<script src="~/Scripts/AngularController/HomeAngularJS.js"></script>
+

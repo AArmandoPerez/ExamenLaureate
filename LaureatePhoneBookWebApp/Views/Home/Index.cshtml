@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Contactos</h2>
+<br />
+<div ng-app="Homeapp" ng-controller="HomeController">
+
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Telefono</th>
+            <th>Locación</th>
+        </tr>
+        <tr ng-repeat="e in records">
+            <td>{{e.Nombre}}</td>
+            <td>{{e.Email}}</td>
+            <td>{{e.PhoneNumber}}</td>
+            <td>{{e.Location}}</td>
+            <td><a href="/Home/Update_data?id={{e.ID_Contact}}">Actualizar</a></td>
+            <td><a ng-click="deleterecord(e.ID_Contact)">Borrar</a></td>
+        </tr>
+    </table>
+    <br />
+    <a href="@Url.Action("Save_Data", "Home")" role="button" class="btn btn-primary">Nuevo Contacto</a>
+</div>
+
+
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/AngularController/HomeAngularJS.js"></script>

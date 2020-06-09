@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Save_Data";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Nuevo Contacto</h2>
+<br />
+<div ng-app="Homeapp" ng-controller="HomeController">
+
+    <form name="frmSave">
+        <div class="form-group">
+            <label for="nombreInput">Nombre</label>
+            <input type="text" class="form-control" autocomplete="name"  name="name" ng-model="Contacts.Nombre" placeholder="Nombre del Contacto" required ng-maxlength="60">
+            <span ng-show="frmSave.name.$dirty && frmSave.name.$error.required">Requerido!</span>
+            <span ng-show="frmSave.name.$dirty && frmSave.name.$error.maxlength">Debe temer maximo 60 caracteres!</span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Correo Electronico</label>
+            <input type="email" class="form-control" autocomplete="email"  ng-model="Contacts.Email" name="email" placeholder="Correo Electronico" required ng-maxlength="60">
+            <span ng-show="frmSave.email.$dirty && frmSave.email.$error.email">No es un email valido!</span>
+            <span ng-show="frmSave.email.$dirty && frmSave.email.$error.maxlength">Debe temer maximo 60 caracteres!</span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Numero de Telefono</label>
+            <input type="number" class="form-control" autocomplete="phonenumber" ng-model="Contacts.PhoneNumber" name="phonenumber" placeholder="Numero de telefono" required ng-maxlength="60">
+            <span ng-show=" frmSave.phonenumber.$dirty &&frmSave.phonenumber.$error.maxlength">Debe temer maximo 60 caracteres!</span>
+            <span ng-show=" frmSave.phonenumber.$dirty &&frmSave.phonenumber.$error.required">Requerido!</span>
+
+
+        </div>
+        <div class="form-group">
+            <label for="Location">Locación</label>
+            <input type="text" class="form-control" autocomplete="location"  name="location" ng-model="Contacts.Location" placeholder="Location" required ng-maxlength="10">
+            <span ng-show="frmSave.location.$dirty &&frmSave.location.$error.maxlength">Debe temer maximo 10 caracteres!</span>
+            <span ng-show="frmSave.location.$dirty &&frmSave.location.$error.required">Requerido!</span>
+        </div>
+        <input ng-disabled="frmSave.$invalid" type="button" class="btn btn-primary" ng-click="savedata()" value="{{btntext}}" />
+    </form>
+</div>
+
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/AngularController/HomeAngularJS.js"></script>

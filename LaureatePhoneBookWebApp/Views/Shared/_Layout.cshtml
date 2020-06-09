@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laureate Phone Book</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <style>
+        input.ng-invalid.ng-dirty {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div id="header">
+            <div id="section">
+                <div>
+                    <a href="@Url.Action("Index", "Home")">
+                        <img src="~/images/Laureate.png" alt="" />
+                    </a>
+                </div>
+            </div>
+            <ul>
+                <li class="current"><a href="@Url.Action("Index", "Home")">Contactos</a></li>
+                <li><a href="@Url.Action("Save_Data", "Home")">Nuevo Contacto</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            @RenderBody()
+        </div>
+        <div id="footer">
+            <div>
+                <div id="connect">
+                    <a href="https://www.facebook.com/pages/Laureate-M%C3%A9xico/290915691065191"><img src="~/images/icon-facebook.gif" alt="" /></a>
+                    <a href="https://twitter.com/i/lists/84471477"><img src="~/images/icon-twitter.gif" alt="" /></a>
+                    <a href="https://www.youtube.com/watch?v=4rveCkc3Huk"><img src="~/images/icon-youtube.gif" alt="" /></a>
+                </div>
+                <div class="section">
+                    <p>Copyright &copy; Laureate - Jose Armando Perez </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
